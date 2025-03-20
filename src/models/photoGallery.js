@@ -9,7 +9,7 @@ const PhotoGallery = new Schema({
     IMG_URLS: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Image' }], 
     IMG_URL_1: String, 
     TITLE: String,
-    DESCRIPTION: [String],
+    DESCRIPTION: String,
 });
 
 module.exports = mongoose.model('PhotoGallery', PhotoGallery);

@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const {Schema} = mongoose;
 
 const Article = new Schema({
-    language: String,
+    LANGUAGE: String,
     subtitle1: String,
     content1: String,
     content2: String,

@@ -10,7 +10,7 @@ const Review = new Schema({
     EVENT_DATE: String,
     VIDEO_LINK: String,
     CODE : String,
-    DESCRIPTION: [String],
+    DESCRIPTION: String,
 });
 
 module.exports = mongoose.model('Review', Review);
